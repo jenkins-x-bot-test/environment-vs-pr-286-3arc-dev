@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:vs-pr-286-3arc/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:vs-pr-286-3arc/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:vs-pr-286-3arc/prow:hmacToken
+segmentWriteKey: vault:vs-pr-286-3arc:segmentWriteKey
